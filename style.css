@@ -13,7 +13,7 @@ body{
 }
 .body{
     height: 400px;
-    width: 600px;
+    width: 800px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,11 +25,12 @@ body{
     
 }
 #skills{
-    width: 60vh;
+    width: 600px;
     height: 30px;
     background-color: rgb(175, 173, 181);
     color: black;
     border: 0;
+
 }
 .down{
     display: flex;
@@ -57,8 +58,8 @@ body{
 }
 .pro{
     height: 80px;
-    width: 100vh;
-    margin-left: 0;
+    width: 600px;
+    margin-left: 10px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -73,7 +74,10 @@ body{
     margin-left: 0;
 }
 .proin{
-    text-decoration: none;
     border: 0;
-
+}
+.hea{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
