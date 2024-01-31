@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 3</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="head">
-        <h1>Your Name</h1>
-        <p>Brief introduction about yourself</p>
-    </div>
-    <div class="body">
-        <div class="skills">
-        <label for="skills">Skills</label><br>
-        <input type="text" id="skills" placeholder="add your skills.">
-    </div>
-    <div class="projects">
-       <label for="proin" class="hea">Projects</label>
-        <div class="pro">
-            <input type="text"  id="proin" class="proin" placeholder="Project Name"><br>
-            <textarea id="proin" class="proin" rows="4" cols="10" placeholder="Project description goes here"></textarea>
+    <div class="container">
+        <div class="head">
+         <h1>Your Name</h1>
+         <p>Brief introduction about yourself</p>
         </div>
-    </div>
-    </div>
-    <div class="down">
-        <h4 class="con">Contact</h4>
-        <input type="text" placeholder="Your Name" class="name">
-        <input type="email" placeholder="Your Email" class="email">
-        <input type="text" placeholder="Your Message" class="Message">
-        <button id="button">Send Message</button>
+        <div class="body">
+            <div class="skills">
+                <label for="skills">Skills</label><br><br>
+                <input type="text" placeholder="Add your skills" id="skills">
+            </div>
+            <div class="pro">
+                <label for="pro">Projects</label><br><br>
+                <div class="proin">
+                    <input type="text" placeholder="Project Name" id="pro"><br>
+                    <input type="text" placeholder="Project description goes here." class="pro" id="pro">
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <h3>Contact</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea rows="3" cols="5">Your Message</textarea>
+            <button type="button">Send Message</button>
+        </div>
     </div>
 </body>
 </html>

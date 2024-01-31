@@ -1,83 +1,65 @@
 *{
     padding: 0;
     margin: 0;
-  
 }
-body{
-    background-color: aliceblue;
+.container{
+    height:550px;
+    width: 1200x;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .head{
-    background-color: rgba(24, 185, 244, 0.581);  
+    height: 80px;
+    width: 1200px;
+    background-color: blue;
+    color: white; 
     text-align: center;
-    color: white;
 }
 .body{
     height: 400px;
-    width: 800px;
+    width: 1180px;
+    /* background-color: green ; */
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-evenly;
+    color: blue;
 }
-.skills{
-   width: 100vh;
-    margin-left: 0;
-    
+label{
+ font-weight: bold;
+}
+.bottom{
+    height: 170px;
+    width: 200px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+#pro{
+    width: 700px;
+   border: none;
+}
+.pro{
+    height: 40px;
+}
+.proin{
+    border: 1px solid black;
+    background-color: white;
 }
 #skills{
     width: 600px;
-    height: 30px;
-    background-color: rgb(175, 173, 181);
-    color: black;
-    border: 0;
-
+    height: 25px;
+    background-color: rgb(203, 211, 218);
+    border: none;
 }
-.down{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.name{
-    margin-top: 10px;
-}
-.email{
-    margin-top: 10px;
-}
-.Message{
-    margin-top: 10px;
-}
-.con{
-    color: rgb(33, 127, 181);
-}
-#button{
-    background-color: rgb(10, 117, 166);
-    margin-top: 10px;
-    width: 170px;
-    border: 0;
-}
-.pro{
-    height: 80px;
-    width: 600px;
-    margin-left: 10px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background-color: white;
-
-}
-.projects{
-  
-    justify-content: left;
-  
-    margin-left: 0;
-}
-.proin{
-    border: 0;
-}
-.hea{
-    margin-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
+h3{
+    text-align: center;
+    color: blue;
 }
