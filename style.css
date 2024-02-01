@@ -3,13 +3,14 @@
     margin: 0;
 }
 .container{
-    height:550px;
-    width: 1200x;
+    height:100vh;
+    width: 100vw;
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    overflow-x: none;
 }
 .head{
     height: 80px;
@@ -20,12 +21,12 @@
 }
 .body{
     height: 400px;
-    width: 1180px;
+    width: 95%;
     /* background-color: green ; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    color: blue;
+    
+    /* color: blue; */
 }
 label{
  font-weight: bold;
@@ -48,18 +49,31 @@ button{
 }
 .pro{
     height: 40px;
+    margin-top: 80px;
 }
 .proin{
     border: 1px solid black;
     background-color: white;
+  
 }
 #skills{
     width: 600px;
     height: 25px;
     background-color: rgb(203, 211, 218);
     border: none;
+   
 }
 h3{
     text-align: center;
     color: blue;
+}
+.proin p{
+    padding-bottom: 20px;
+}
+.skills{
+    margin-top: 80px;
+}
+.body label{
+    color: blue;
+    
 }
