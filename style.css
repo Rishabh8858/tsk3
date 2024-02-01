@@ -14,14 +14,14 @@
 }
 .head{
     height: 80px;
-    width: 1200px;
+    width: 100vw;
     background-color: blue;
     color: white; 
     text-align: center;
 }
 .body{
     height: 400px;
-    width: 95%;
+    width: 98vw;
     /* background-color: green ; */
     display: flex;
     flex-direction: column;
