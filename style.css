@@ -20,7 +20,7 @@
     text-align: center;
 }
 .body{
-    height: 400px;
+    height: 80vh;
     width: 98vw;
     /* background-color: green ; */
     display: flex;
