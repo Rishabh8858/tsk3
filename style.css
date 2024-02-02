@@ -32,12 +32,12 @@ label{
  font-weight: bold;
 }
 .bottom{
-    height: 140px;
+    height: 250px;
     width: 99%vw;
     /* background-color: yellow; */
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 
 }
 button{
@@ -49,8 +49,8 @@ button{
    border: none;
 }
 .pro{
-    height: 40px;
-    margin-top: 80px;
+    height: 80px;
+    margin-top: 150px;
 }
 .proin{
     border: 1px solid black;
@@ -58,8 +58,8 @@ button{
   
 }
 #skills{
-    width: 600px;
-    height: 25px;
+    width: 800px;
+    height: 40px;
     background-color: rgb(203, 211, 218);
     border: none;
    
@@ -77,4 +77,8 @@ h3{
 .body label{
     color: blue;
     
+}
+.bottom input{
+    width: 200px;
+    height: 25px;
 }
