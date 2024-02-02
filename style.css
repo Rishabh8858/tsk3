@@ -43,6 +43,7 @@ label{
 button{
     background-color: blue;
     color: white;
+    height: 30px;
 }
 #pro{
     width: 700px;
