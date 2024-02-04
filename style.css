@@ -13,14 +13,22 @@
     
 }
 .head{
-    height: 80px;
+    height: 120px;
     width: 100vw;
     background-color: blue;
     color: white; 
     text-align: center;
+    font-size: 17px;
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 40p; */
+}
+.head p{
+    margin-top: 10px;
 }
 .body{
-    height: 80vh;
+    height: 70vh;
     width: 98vw;
     /* background-color: green ; */
     display: flex;
@@ -51,11 +59,14 @@ button{
 }
 .pro{
     height: 80px;
-    margin-top: 150px;
+    margin-top: 50px;
+    /* background-color: blue; */
 }
 .proin{
     border: 1px solid black;
     background-color: white;
+    box-sizing: content-box;
+    padding: 5px;
   
 }
 #skills{
@@ -63,6 +74,7 @@ button{
     height: 40px;
     background-color: rgb(203, 211, 218);
     border: none;
+    padding: 5px;
    
 }
 h3{
@@ -82,4 +94,7 @@ h3{
 .bottom input{
     width: 200px;
     height: 25px;
+}
+label{
+    font-size: 20px;
 }
